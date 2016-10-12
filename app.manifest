@@ -1,0 +1,27 @@
+{
+  "id":          "sdk.user.listchamberchunkingtest",
+  "name":        "List Chamber Chunking Test",
+  "css":         [
+    "appStylesheet.css"
+  ],
+  "template":    "appLayout.html",
+  "view":        "appView.js",
+  "controller":  "appController.js",
+  "permissions": [],
+  "categoryId":  "WORKSPACE",
+  "date":        "2016-10-06",
+  "version":     "1.0.0",
+  "screens":     [
+    {
+      "id":       "screen1",
+      "chambers": [
+        {
+          "id":      "chamber1",
+          "js":      "GithubChamber.js",
+          "autorun": true,
+          "focus":   true
+        }
+      ]
+    }
+  ]
+}
